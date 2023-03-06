@@ -20,7 +20,7 @@ form?.addEventListener("submit", e => {
   const newTask: Task = {
     id: uuidV4(),
     title: input.value,
-    completed: false,
+    completed: true,
     createdAt: new Date(),
 
   }
